@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/api/checkout", "destination": "/api/checkout.js" },
+    { "source": "/api/products", "destination": "/api/products.js" },
+    { "source": "/api/status", "destination": "/api/status.js" },
+    { "source": "/api/reseller/apply", "destination": "/api/reseller/apply.js" },
+    { "source": "/api/invoices/lookup", "destination": "/api/invoices/lookup.js" },
+    { "source": "/api/(.*)", "destination": "/api/index.js" }
+  ]
+}
